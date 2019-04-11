@@ -1,5 +1,7 @@
 # scrollable-canvas-test
 
+Thanks to: https://konvajs.org/docs/sandbox/Canvas_Scrolling.html
+
 ## Project setup
 ```
 yarn install

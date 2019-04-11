@@ -80,6 +80,7 @@ export default {
       ctx.lineWidth = 1;
       ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
+      // draw fixed grid
       for(let x = 0; x < CANVAS_WIDTH; x += 100) {
         ctx.beginPath();
         ctx.moveTo(x, 0);
@@ -94,6 +95,7 @@ export default {
         ctx.stroke();
       }
 
+      // draw circles at center
       ctx.translate(-this.scrollLeft, -this.scrollTop);
 
       for(let i = 1; i <= this.numberOfCircles; i++){
